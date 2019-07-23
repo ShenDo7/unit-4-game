@@ -6,3 +6,13 @@ img {
     height: 300px;
     background-color: black;
   }
+
+#titlebox {
+  width: 200px;
+  /* Visual */
+  background: black;
+}
+body {
+  background: black
+}
+
