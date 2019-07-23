@@ -8,11 +8,12 @@ img {
   }
 
 #titlebox {
-  width: 200px;
+  width: 300px;
   /* Visual */
-  background: black;
+  background: green;
 }
-body {
-  background: black
+#instructions {
+background: blue;
+
 }
 

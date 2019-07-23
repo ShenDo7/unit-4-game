@@ -2,130 +2,116 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CrystalGame</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CrystalGame</title>
 </head>
 
 <body>
+
+  <!-- BootStrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- BootStrap JS CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
   <!-- CSS linked -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- BootStrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- BootStrap JS CDN -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+  <!-- Crystal Collector title -->
+  <div class="title">
+    <title>"CrystalCollectors!"</title>
+  </div>
 
-<!-- JS linked -->
-        <link rel="stylesheet" href="game.js">
+  <!-- Instructions box -->
+  <div id="titlebox">
+    <h1>CRYSTALS COLLECTOR!</h1>
+  </div>
 
- <!-- Crystal Collector title -->
-    <div class="title">
-        <title>"CrystalCollectors!"</title>
-    </div>
+  <div id="instructions">
+    <h3>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, facilis
+      in? Maiores molestias mollitia ex, consequatur repellat amet repellendus
+      alias beatae, ipsa laborum laboriosam unde temporibus quasi quos officia
+      est? Amet, maxime aspernatur ratione, fugiat a deserunt magni itaque
+      incidunt perspiciatis veniam esse omnis numquam. Porro sapiente saepe
+      facilis obcaecati deleniti. Illum laborum corrupti voluptates quo
+      aspernatur natus quam repudiandae. Quia laudantium natus perferendis
+      vero consectetur impedit architecto illum accusantium ea possimus
+      laboriosam molestiae, ipsam consequatur rem reprehenderit, quod
+      doloremque omnis a soluta, ad quas sapiente! Magnam voluptate pariatur
+      iusto.
+    </h3>
+  </div>
 
-        <!-- Instructions box -->
-        <container id ="titlebox">
-            <h1>CRYSTALS COLLECTOR!</h1>
-        </container>
-            
-      <container><h3>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, facilis
-              in? Maiores molestias mollitia ex, consequatur repellat amet repellendus
-              alias beatae, ipsa laborum laboriosam unde temporibus quasi quos officia
-              est? Amet, maxime aspernatur ratione, fugiat a deserunt magni itaque
-              incidunt perspiciatis veniam esse omnis numquam. Porro sapiente saepe
-              facilis obcaecati deleniti. Illum laborum corrupti voluptates quo
-              aspernatur natus quam repudiandae. Quia laudantium natus perferendis
-              vero consectetur impedit architecto illum accusantium ea possimus
-              laboriosam molestiae, ipsam consequatur rem reprehenderit, quod
-              doloremque omnis a soluta, ad quas sapiente! Magnam voluptate pariatur
-              iusto.
-            </h3></container>
-
-        <!-- box with random nuber -->
-        <container id="scoreCon">
-            <!-- <span id="scoreReq"></span>
+  <!-- box with random nuber -->
+  <container id="scoreCon">
+    <!-- <span id="scoreReq"></span>
             <span id="WL">
                 <h1>W:</h1>
                 <h1>L:</h1>
             </span> -->
-            <div class="card" style="width: 30rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-        </container>
-        <!-- W & L box -->
-        <container>
+    <div class="card" style="width: 30rem;">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </container>
+  <!-- W & L box -->
+  <container>
 
-        </container>
-        <!-- There needs to be 4 crystals displayed as buttons -->
-        <container>
-            <span>
-              <img
-                id="0"
-                value=""
-                src="./assets/images/Gem1.png"
-                style="width: 15%;
-              height: auto"
-              />
-            </span>
-            <span>
-              <img
-                id="1"
-                value=""
-                src="./assets/images/Gem2.png"
-                style="width: 15%;
-              height: auto"
-              />
-            </span>
-            <span>
-              <img
-                id="2"
-                value=""
-                src="./assets/images/Gem3.png"
-                style="width: 15%;
-              height: auto"
-              />
-            </span>
-            <span>
-              <img
-                id="3"
-                value=""
-                src="./assets/images/Gem4.png"
-                style="width: 15%;
-              height: auto"
-              />
-            </span>
-          </container>
-          <!-- your total score box -->
-          <container><h1>Total Score Box</h1></container>
-          <!-- score box -->
-          <container><h1>Score Box</h1></container>
+  </container>
+  <!-- There needs to be 4 crystals displayed as buttons -->
+  <container>
+    <span>
+      <img id="0" value="" src="./assets/images/Gem1.png" style="width: 15%;
+              height: auto" />
+    </span>
+    <span>
+      <img id="1" value="" src="./assets/images/Gem2.png" style="width: 15%;
+              height: auto" />
+    </span>
+    <span>
+      <img id="2" value="" src="./assets/images/Gem3.png" style="width: 15%;
+              height: auto" />
+    </span>
+    <span>
+      <img id="3" value="" src="./assets/images/Gem4.png" style="width: 15%;
+              height: auto" />
+    </span>
+  </container>
+  <!-- your total score box -->
+  <container>
+    id = "totalscorebox"
+    <h1>Total Score Box</h1>
+  </container>
+  <!-- score box -->
+  <container>
+    <h1>Score Box</h1>
+  </container>
 
-          <!-- Each crystal needs a randon hidden value between 1 - 12 -->
-        </body>
-      </html>
-        <!-- your total score box -->
+  <!-- Each crystal needs a randon hidden value between 1 - 12 -->
+</body>
 
-        <!-- score box -->
+</html>
+<!-- your total score box -->
+
+<!-- score box -->
 
 
-        <!-- Each crystal needs a randon hidden value between 1 - 12 -->
+<!-- Each crystal needs a randon hidden value between 1 - 12 -->
 
 
 </body>
