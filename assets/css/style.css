@@ -1,19 +1,52 @@
-img {
-    width: 200;
-    height: 200;
-  }
-  #scoreCon {
-    height: 300px;
-    background-color: black;
-  }
-
 #titlebox {
-  width: 300px;
-  /* Visual */
+  height: 100px;
+  width: 400px;
+  margin: 10px;
   background: green;
 }
 #instructions {
-background: blue;
-
+  background: blue;
+  margin: 10px;
+  width: 800px;
+  height: 300px;
+  font-size: 20px;
+}
+ #scoreCon {
+    height: 300px;
+    margin: 10px;
+    text-align: left;
+}
+#scoreReq {
+width: 300px;
+height: 100px;
+background: gold;
+text-align: center;
+font-size: 36px;
+};
+#ratio {
+width: 300px;
+height: 100px;
+text-align: center;
+background: teal;
+font-size: 36px;
+}
+#wins {
+  font-size: 36px;
+}
+#losses {
+  font-size: 36px;
 }
 
+.gems {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  }
+
+#totalScore {
+  clear: both;
+  width: 200px;
+  background: white;
+  font-size: 36px;
+  float: left;
+}
